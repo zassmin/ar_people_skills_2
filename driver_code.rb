@@ -48,4 +48,3 @@ assert(jesse.proficiency_for(beard_growing) == 0, " Jesse cannot grow a beard :(
 zee.set_proficiency_for(beard_growing, 900)
 beard_skills = Skill.find_by_name("Beard Growing").user_with_proficiency(900) == zee
 assert(beard_skills, "! Zee is a Beard Growing MASTER")
-
